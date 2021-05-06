@@ -19,3 +19,6 @@
     260 aparece 1 vez(es)
 */
 
+
+//Recebe a quantidade de casos a serem processados
+let casosN = parseInt(gets());
