@@ -22,3 +22,6 @@
 
 //Recebe a quantidade de casos a serem processados
 let casosN = parseInt(gets());
+
+//Objeto definido para guardar informações dos números e suas contagens
+let numeros = {};
