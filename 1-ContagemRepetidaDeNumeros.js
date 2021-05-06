@@ -41,3 +41,8 @@ for (let i = 0; i < casosN; i++) {
     else
         numeros[numeroAtual].cnt++; //Incrementando o contador
 }
+
+//Iteração para exibir a quantidade de vezes que o número foi encontrado.
+for(var [chave, numero] of Object.entries(numeros)){
+    console.log(`${numero.valor} aparece ${numero.cnt} vez(es)`);
+}
