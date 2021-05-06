@@ -25,3 +25,6 @@ let casosN = parseInt(gets());
 
 //Objeto definido para guardar informações dos números e suas contagens
 let numeros = {};
+
+//Variável definida para receber cada número e ser utilizado nas condições lógicas
+let numeroAtual;
