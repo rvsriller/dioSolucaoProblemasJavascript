@@ -28,3 +28,10 @@ let numeros = {};
 
 //Variável definida para receber cada número e ser utilizado nas condições lógicas
 let numeroAtual;
+
+//Iteração de casos e leitura dos número
+for (let i = 0; i < casosN; i++) {
+    numeroAtual = gets(); //Recebe o número atual
+
+    
+}
