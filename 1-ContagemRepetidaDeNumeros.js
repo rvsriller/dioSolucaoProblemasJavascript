@@ -33,5 +33,11 @@ let numeroAtual;
 for (let i = 0; i < casosN; i++) {
     numeroAtual = gets(); //Recebe o número atual
 
-    
+    /*Se o número for indefinido no objeto NUMS, esse número deverá ser salvo com contador 1
+      Senão, seu contador é incrementado sempre que for encontrado.
+    */
+    if(typeof numeros[numeroAtual] === 'undefined')
+        numeros[numeroAtual] = {valor: parseInt(numeroAtual), cnt:  1};
+    else
+        numeros[numeroAtual].cnt++; //Incrementando o contador
 }
