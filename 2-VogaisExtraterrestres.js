@@ -21,3 +21,8 @@
 let vogaisDosAliens = '' //Armazena as vogais
 let frase = '' //Armazena a frase
 const foraDoAlfabeto = /[^A-Z a-z 0-9 ]/g //Conjunto de alfabeto
+
+while (true) {
+  vogaisDosAliens = gets() //Extrai as vogais para executar a verificação
+  
+}
