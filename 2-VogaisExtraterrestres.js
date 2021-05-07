@@ -1,4 +1,5 @@
 /*
+  Desafio 2 - Vogais Extraterrestres 
 
   Dado uma sequência de vogais, em um determinado alfabeto alienígena, 
   esse algoritmo contabiliza, em um texto escrito com o mesmo alfabeto, 
