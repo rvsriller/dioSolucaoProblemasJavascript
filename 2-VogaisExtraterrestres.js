@@ -43,6 +43,6 @@ function contador(substring, string) {
     split('').
     reduce((acc, character) => {
       acc += (string || '').match(new RegExp(`${character}`, 'g'))?.length || 0
-     
+      return acc
     }, 0)
 }
