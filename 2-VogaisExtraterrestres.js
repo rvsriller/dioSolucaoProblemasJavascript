@@ -32,4 +32,7 @@ while (true) {
 
   frase = gets(); //Extrai a frase para executar a verificação
 
+  if (foraDoAlfabeto.test(vogaisDosAliens) || foraDoAlfabeto.test(frase)) continue; //Verifica o alfabeto
+
+  console.log(contador(vogaisDosAliens, frase)); //Executa a função de contagem
 }
