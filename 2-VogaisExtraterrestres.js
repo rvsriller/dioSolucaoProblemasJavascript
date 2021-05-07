@@ -38,5 +38,7 @@ while (true) {
 }
 
 function contador(substring, string) {
-
+  //Utiliza-se a função reduce para contar as vogais na frase
+  return substring.
+    split('')
 }
