@@ -36,3 +36,7 @@ while (true) {
 
   console.log(contador(vogaisDosAliens, frase)); //Executa a função de contagem
 }
+
+function contador(substring, string) {
+
+}
