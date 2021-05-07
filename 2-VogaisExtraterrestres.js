@@ -25,4 +25,6 @@ const foraDoAlfabeto = /[^A-Z a-z 0-9 ]/g //Conjunto de alfabeto
 while (true) {
   vogaisDosAliens = gets() //Extrai as vogais para executar a verificação
   
+  if (!vogaisDosAliens || vogaisDosAliens === '') break; //Flag parador, se não existir vogais, o laço é interrompido
+
 }
