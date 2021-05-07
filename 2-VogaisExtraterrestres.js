@@ -30,4 +30,6 @@ while (true) {
   vogaisDosAliens = vogaisDosAliens.replace(/ /g, '');
 
 
+  frase = gets(); //Extrai a frase para executar a verificação
+
 }
