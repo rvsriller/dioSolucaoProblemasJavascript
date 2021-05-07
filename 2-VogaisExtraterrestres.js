@@ -17,3 +17,6 @@
   retorno (16)
 */
 
+
+let vogaisDosAliens = '' //Armazena as vogais
+let frase = '' //Armazena a frase
