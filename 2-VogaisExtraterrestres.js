@@ -27,4 +27,7 @@ while (true) {
   
   if (!vogaisDosAliens || vogaisDosAliens === '') break; //Flag parador, se não existir vogais, o laço é interrompido
 
+  vogaisDosAliens = vogaisDosAliens.replace(/ /g, '');
+
+
 }
