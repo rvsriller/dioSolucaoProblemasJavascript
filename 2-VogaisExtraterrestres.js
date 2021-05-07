@@ -42,6 +42,7 @@ function contador(substring, string) {
   return substring.
     split('').
     reduce((acc, character) => {
-      
+      acc += (string || '').match(new RegExp(`${character}`, 'g'))?.length || 0
+     
     }, 0)
 }
