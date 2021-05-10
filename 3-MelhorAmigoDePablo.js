@@ -34,3 +34,5 @@ do {
   entrada = String(gets());
   
 } while (entrada != "FIM");
+
+amigos(lista);
