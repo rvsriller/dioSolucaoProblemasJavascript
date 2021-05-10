@@ -7,3 +7,7 @@
 
 let entrada = gets();
 let lista = [];
+
+function amigos(listaDeNomes) {
+  
+}
