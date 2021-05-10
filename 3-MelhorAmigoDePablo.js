@@ -8,6 +8,20 @@
 let entrada = gets();
 let lista = [];
 
+do {
+  
+  let [nome, opcao] = entrada.split(" ");
+  
+  if (!lista.some(e => e.nome === nome) || lista == "") {
+      lista.push({ nome: nome, opcao: opcao });
+  }
+
+  entrada = String(gets());
+  
+} while (entrada != "FIM");
+
+amigos(lista);
+
 function amigos(listaDeNomes) {
 
   //Filtra os amigos que responderam "SIM" e ordena os nomes do maior para menor
@@ -22,17 +36,3 @@ function amigos(listaDeNomes) {
     if (a.nome > b.nome) return 1;
   });
 }
-
-do {
-  
-  let [nome, opcao] = entrada.split(" ");
-  
-  if (!lista.some(e => e.nome === nome) || lista == "") {
-      lista.push({ nome: nome, opcao: opcao });
-  }
-
-  entrada = String(gets());
-  
-} while (entrada != "FIM");
-
-amigos(lista);
