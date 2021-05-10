@@ -22,3 +22,8 @@ function amigos(listaDeNomes) {
     if (a.nome > b.nome) return 1;
   });
 }
+
+do {
+  
+  let [nome, opcao] = entrada.split(" ");
+  
