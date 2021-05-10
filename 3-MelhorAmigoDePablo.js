@@ -30,3 +30,7 @@ do {
   if (!lista.some(e => e.nome === nome) || lista == "") {
       lista.push({ nome: nome, opcao: opcao });
   }
+
+  entrada = String(gets());
+  
+} while (entrada != "FIM");
