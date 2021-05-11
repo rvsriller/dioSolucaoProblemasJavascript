@@ -24,7 +24,13 @@ while (true) {//Executa enquanto a condição é verdadeira!
   resultado = []
 
   for (let i = -1; i >= limite; i--) { //Percorre cada elemento até que o i seja maior ou igual ao limite
-    
+    entrada.slice(i) === entrada.slice(i * 2, i) && resultado.push(entrada.slice(0, i))
   }
 
+  //Verifica se a enntrada tem tamanho 0
+  if (!resultado || resultado.length === 0) {
+   
+  }
+
+  
 }
