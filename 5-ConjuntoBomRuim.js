@@ -40,6 +40,7 @@ while (true) {
       return total
     }, 0)
 
+    return same > 1;
     
   })
   
