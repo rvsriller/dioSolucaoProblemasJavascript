@@ -23,5 +23,8 @@ while (true) {//Executa enquanto a condição é verdadeira!
   //Armazena o resultado final
   resultado = []
 
+  for (let i = -1; i >= limite; i--) { //Percorre cada elemento até que o i seja maior ou igual ao limite
+    
+  }
 
 }
