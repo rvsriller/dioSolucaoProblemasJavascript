@@ -29,8 +29,8 @@ while (true) {//Executa enquanto a condição é verdadeira!
 
   //Verifica se a enntrada tem tamanho 0
   if (!resultado || resultado.length === 0) {
-   
+    console.log(entrada)
+    continue;
   }
 
-  
 }
