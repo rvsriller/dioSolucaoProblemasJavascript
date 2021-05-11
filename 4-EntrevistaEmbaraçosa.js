@@ -20,5 +20,8 @@ while (true) {//Executa enquanto a condição é verdadeira!
   //O limite é o tamanho da entrada / 2 negativo
   limite = -Math.floor(entrada.length / 2)
 
-  
+  //Armazena o resultado final
+  resultado = []
+
+
 }
