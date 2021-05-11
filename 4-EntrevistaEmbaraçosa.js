@@ -10,6 +10,8 @@ let limite = 0;
 let resultado;
 
 
-while (true) {  //Executa enquanto a condição é verdadeira!
+while (true) {//Executa enquanto a condição é verdadeira!
   
+  entrada = gets() //Extrai os dados de entrada
+
 }
