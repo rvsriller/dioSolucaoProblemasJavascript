@@ -18,4 +18,7 @@ while (true) {
   palavras = [];
   N = parseInt(gets()); //Extrai as palavras
 
+  //Flag ponto de parada do algoritmo
+  if (N === 0 || (N < 1 || N > limit)) break;
+
 }
