@@ -31,6 +31,10 @@ while (true) {
     
     const pattern = new RegExp(`^(${palavraAtual}).+`)
 
+    for (const word of palavra) {
+
+    }
+
     
   })
   
