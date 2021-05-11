@@ -23,7 +23,8 @@ while (true) {
 
   for (let i = 0; i < N; i++) {
     palavra = gets();
-
+    if (!(/^[a-z]{1,100}$/g.test(palavra))) continue;
+    
   }
 
 
