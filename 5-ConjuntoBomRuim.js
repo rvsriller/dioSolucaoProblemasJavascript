@@ -39,7 +39,7 @@ while (true) {
       
     }, 0)
 
-    return same > 1;
+    
     
   })
   
