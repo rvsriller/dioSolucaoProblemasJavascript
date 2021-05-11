@@ -12,3 +12,7 @@
 let N;
 const limit = Math.pow(10, 5);
 let palavras, eRuim;
+
+while (true) {
+  
+}
