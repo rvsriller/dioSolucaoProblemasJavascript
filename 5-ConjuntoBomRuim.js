@@ -35,6 +35,11 @@ while (true) {
       if (pattern.test(word)) return true
     }
 
+    const same = palavra.reduce((total, w) => {
+      
+    }, 0)
+
+    return same > 1;
     
   })
   
