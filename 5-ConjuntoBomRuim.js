@@ -27,5 +27,10 @@ while (true) {
     palavras = [...palavras, palavra]
   }
 
-
+  eRuim = palavras.some((palavraAtual, i, palavra) => {
+    
+    
+    
+  })
+  
 }
