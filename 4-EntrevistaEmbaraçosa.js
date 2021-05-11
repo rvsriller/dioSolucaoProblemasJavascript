@@ -17,5 +17,8 @@ while (true) {//Executa enquanto a condição é verdadeira!
   //Restrição: Se entrada nula ou vazia ou maior que 30 caracteres, o laço é interrompido
   if (!entrada || entrada === '' || entrada.length > 30) break;
 
+  //O limite é o tamanho da entrada / 2 negativo
+  limite = -Math.floor(entrada.length / 2)
+
   
 }
