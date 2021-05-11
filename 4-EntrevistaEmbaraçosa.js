@@ -33,4 +33,9 @@ while (true) {//Executa enquanto a condição é verdadeira!
     continue;
   }
 
+  //Ordena o resultado final
+  for (const resultadoFinal of resultado.sort()) {
+    
+  }
+  
 }
