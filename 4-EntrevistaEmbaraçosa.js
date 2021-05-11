@@ -8,3 +8,8 @@
 let entrada = '';
 let limite = 0;
 let resultado;
+
+
+while (true) {  //Executa enquanto a condição é verdadeira!
+  
+}
