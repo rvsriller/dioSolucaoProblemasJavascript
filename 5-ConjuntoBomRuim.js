@@ -22,7 +22,9 @@ while (true) {
   if (N === 0 || (N < 1 || N > limit)) break; //Se N for igual a 0, vazio, menor que um ou maior que o limite, o laço de repetição é interrompido
 
   for (let i = 0; i < N; i++) {
-    
+    palavra = gets();
+
   }
+
 
 }
