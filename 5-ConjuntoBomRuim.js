@@ -10,3 +10,4 @@
 */
 
 let N;
+const limit = Math.pow(10, 5);
