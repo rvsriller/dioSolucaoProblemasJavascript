@@ -44,4 +44,5 @@ while (true) {
     
   })
   
+  console.log(eRuim ? 'Conjunto Ruim' : 'Conjunto Bom');
 }
