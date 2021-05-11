@@ -3,3 +3,8 @@
     Escreva um programa que, dada uma palavra errada, a mesma seja corrigida.
 
 */
+
+
+let entrada = '';
+let limite = 0;
+let resultado;
