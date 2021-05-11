@@ -16,5 +16,6 @@ let palavras, eRuim;
 while (true) {
   
   palavras = [];
+  N = parseInt(gets()); //Extrai as palavras
 
 }
