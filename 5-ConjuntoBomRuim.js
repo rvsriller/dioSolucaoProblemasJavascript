@@ -36,10 +36,10 @@ while (true) {
     }
 
     const same = palavra.reduce((total, w) => {
-      
+      total += w === palavraAtual ? 1 : 0
+      return total
     }, 0)
 
-    
     
   })
   
