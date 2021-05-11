@@ -15,4 +15,6 @@ let palavras, eRuim;
 
 while (true) {
   
+  palavras = [];
+
 }
