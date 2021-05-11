@@ -29,7 +29,8 @@ while (true) {
 
   eRuim = palavras.some((palavraAtual, i, palavra) => {
     
-    
+    const pattern = new RegExp(`^(${palavraAtual}).+`)
+
     
   })
   
