@@ -26,8 +26,12 @@ while (true) {
   operator = undefined
   nOperators = parseInt(gets())
 
+  if (!nOperators || nOperators === '' || nOperators < 1 || nOperators > 100000) break;
 
- 
+  for (let index = 0; index < nOperators; index++) {
+
+
+  }
 
 
 }
