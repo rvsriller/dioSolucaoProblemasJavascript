@@ -7,6 +7,10 @@ const doMath = {
     b = Number(b)
     return parseFloat(a / b)
   },
-  
+  '*': (a, b) => {
+    if (Number(a) * Number(b) >= Number.MAX_SAFE_INTEGER) {
+    }
+    return a * b
+  }
 }
 
