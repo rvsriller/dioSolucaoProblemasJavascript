@@ -35,7 +35,10 @@ while (true) {
     [str, number2, operator] = input.match(regexInput);
 
     if (number2 === undefined || (number2 == 0 && operator === '/')) continue;
+    result = doMath[operator](number1, number2)
+    number1 = result
   }
 
+  if (result === undefined) { console.log(number1); continue; }
 
 }
