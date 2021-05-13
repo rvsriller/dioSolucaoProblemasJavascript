@@ -23,6 +23,8 @@ while (true) {
   number2 = undefined
   result = undefined
   input = undefined
+  operator = undefined
+  nOperators = parseInt(gets())
 
 
  
