@@ -19,7 +19,10 @@ const doMath = {
 
 while (true) {
   
- 
+  number1 = 1
+  number2 = undefined
+  result = undefined
+  input = undefined
 
 
  
