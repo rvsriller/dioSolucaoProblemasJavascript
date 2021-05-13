@@ -40,5 +40,6 @@ while (true) {
   }
 
   if (result === undefined) { console.log(number1); continue; }
+  console.log(typeof result == 'bigint' ? result.toString() : parseInt(result));
 
 }
