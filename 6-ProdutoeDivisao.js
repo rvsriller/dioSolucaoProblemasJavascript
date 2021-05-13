@@ -17,3 +17,12 @@ const doMath = {
   }
 }
 
+while (true) {
+  
+ 
+
+
+ 
+
+
+}
