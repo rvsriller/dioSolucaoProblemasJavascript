@@ -29,8 +29,12 @@ while (true) {
   if (!nOperators || nOperators === '' || nOperators < 1 || nOperators > 100000) break;
 
   for (let index = 0; index < nOperators; index++) {
+    input = gets();
 
+    if (!input.match(regexInput)) continue;
+    [str, number2, operator] = input.match(regexInput);
 
+    if (number2 === undefined || (number2 == 0 && operator === '/')) continue;
   }
 
 
