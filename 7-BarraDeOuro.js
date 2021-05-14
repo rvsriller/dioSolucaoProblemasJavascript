@@ -50,7 +50,9 @@
     let stack = [];
     let nodes = [];
   
-    
+    stack = [...stack, fiefdom];
+    visited[fiefdom] = true;
+    previousRoutes[fiefdom] = -1;
   
    
   
