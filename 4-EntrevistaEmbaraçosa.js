@@ -38,6 +38,6 @@ while (true) {//Executa enquanto a condição é verdadeira!
 
   //Ordena o resultado final
   for (const resultadoFinal of resultado.sort()) {
-    console.log(resultadoFinal)
+    console.log(resultadoFinal);
   }
 }
