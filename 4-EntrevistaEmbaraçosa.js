@@ -1,6 +1,10 @@
 /*
-    escrever um programa que omita a parte repetida, de modo que as palavras sejam pronunciadas como deveriam ser.
-    Escreva um programa que, dada uma palavra errada, a mesma seja corrigida.
+    Desafio 4 - Entrevista Embaraçosa
+
+    Esse algoritmo omite a parte repetida das palavras faladas pro uma reporter, 
+    de modo que as palavras sejam pronunciadas como deveriam ser.
+
+    Portanto, dada uma palavra errada, a mesma é corrigida.
 
 */
 
