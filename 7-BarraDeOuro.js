@@ -73,8 +73,15 @@
         
     }
   
+    let totalDistance = Number(0);
   
-   
+    while (nodes.length > 0) {
+        
+  
+      
+  
+        
+    }
     
     
   })();
