@@ -77,6 +77,8 @@
   
     while (nodes.length > 0) {
         
+      let d = -1;
+      let v = nodes.pop();
   
       
   
