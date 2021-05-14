@@ -12,5 +12,23 @@
 
 
 (() => {
-     
+    
+    let input = '';
+    let taxToPay;
+    let routes, visited, previousRoutes;
+  
+  
+    
+    
+  
+    
+  
+    
+  
+   
+  
+  
+   
+    
+    
   })();
