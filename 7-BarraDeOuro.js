@@ -80,7 +80,16 @@
       let d = -1;
       let v = nodes.pop();
   
-      
+      for (let index = 0; index < routes[previousRoutes[v]].length; ++index) {
+        const route = routes[previousRoutes[v]][index];
+  
+        if (route.to === v) {
+          d = route.distance;
+          break;
+        }
+          
+      }
+        
   
         
     }
