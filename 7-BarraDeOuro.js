@@ -17,6 +17,14 @@
     let taxToPay;
     let routes, visited, previousRoutes;
   
+    input = gets();
+  
+    if (!input || input === '') return false;
+  
+    const [nCities, cargo] = input.match(/\d+/g);
+  
+    taxToPay = gets().match(/\d+/g);
+  
   
     
     
