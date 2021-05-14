@@ -36,7 +36,14 @@
     routes = Array.from(new Array(1 * nCities + 1), v => [])
   
     for (let index = 1; index < nCities; index++) {
-     
+        
+      let [from, to, distance] = gets().match(/\d+/g);
+  
+      if (distance < 1 || distance > 100) return false;
+  
+      routes[from].push({ to: to * 1, distance: distance * 1 });
+      routes[to].push({ to: from * 1, distance: distance * 1 });
+        
     }
   
     
