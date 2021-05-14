@@ -15,7 +15,7 @@ let resultado;
 
 
 while (true) {//Executa enquanto a condição é verdadeira!
-  entrada = gets() //Extrai os dados de entrada
+  entrada = gets(); //Extrai os dados de entrada
 
   //Restrição: Se entrada nula ou vazia ou maior que 30 caracteres, o laço é interrompido
   if (!entrada || entrada === '' || entrada.length > 30) break;
