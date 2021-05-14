@@ -21,7 +21,7 @@ while (true) {//Executa enquanto a condição é verdadeira!
   if (!entrada || entrada === '' || entrada.length > 30) break;
 
   //O limite é o tamanho da entrada / 2 negativo
-  limite = -Math.floor(entrada.length / 2)
+  limite = -Math.floor(entrada.length / 2);
 
   //Armazena o resultado final
   resultado = [];
