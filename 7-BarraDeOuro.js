@@ -31,8 +31,13 @@
     if (taxToPay.some(v => (v < 0 || v > 100))) return false;
     taxToPay.unshift(0);
   
-    
-    
+    visited = Array.from(new Array(1 * nCities + 1), v => false);
+    previousRoutes = Array.from(new Array(1 * nCities + 1), v => 0);
+    routes = Array.from(new Array(1 * nCities + 1), v => [])
+  
+    for (let index = 1; index < nCities; index++) {
+     
+    }
   
     
   
