@@ -46,7 +46,9 @@
         
     }
   
-    
+    let fiefdom = 1;
+    let stack = [];
+    let nodes = [];
   
     
   
