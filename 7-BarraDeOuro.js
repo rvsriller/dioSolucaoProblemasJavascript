@@ -90,9 +90,14 @@
           
       }
         
+      let mover = Number(0);
   
+      mover = Math.ceil(parseFloat(Number(taxToPay[v]) / Number(cargo))) * (2 * Number(d));
+      totalDistance += mover;
+      taxToPay[previousRoutes[v]] += taxToPay[v];
         
     }
     
+    console.log(totalDistance.toString());
     
   })();
