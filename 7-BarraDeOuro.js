@@ -25,6 +25,11 @@
   
     taxToPay = gets().match(/\d+/g);
   
+    if (taxToPay.length > nCities || taxToPay.length < 1) return false;
+    taxToPay = taxToPay.map(v => parseInt(v));
+  
+    if (taxToPay.some(v => (v < 0 || v > 100))) return false;
+    taxToPay.unshift(0);
   
     
     
