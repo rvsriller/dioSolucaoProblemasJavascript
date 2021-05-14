@@ -54,7 +54,21 @@
     visited[fiefdom] = true;
     previousRoutes[fiefdom] = -1;
   
-   
+    while (stack.length > 0) {
+      let v = stack.pop();
+  
+      for (const route of routes[v]) {
+        if (visited[route.to]) continue;
+  
+        visited[v] = true;
+        previousRoutes[route.to] = v
+        stack = [...stack, route.to];
+          
+      }
+  
+      
+        
+    }
   
   
    
