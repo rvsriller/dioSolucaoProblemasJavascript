@@ -9,8 +9,8 @@ const doMath = {
   },
   '*': (a, b) => {
     if (Number(a) * Number(b) >= Number.MAX_SAFE_INTEGER) {
-      a = BigInt(a)
-      b = BigInt(b)
+      a = BigInt(a);
+      b = BigInt(b);
       return a * b
     }
     return a * b
