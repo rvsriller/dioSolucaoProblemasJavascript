@@ -1,5 +1,7 @@
 /*
 
+    Desafio 5 - Conjunto bom e ruim
+
     Nesse algoritmo você deverá descobrir se um conjunto de palavras é bom ou ruim. 
     Por definição, um conjunto é bom quando nenhuma palavra desse conjunto é um prefixo de outra palavra. 
     Caso contrário, é considerado um conjunto ruim.
