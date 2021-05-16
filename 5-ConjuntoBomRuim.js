@@ -32,10 +32,10 @@ while (true) {
 
   eRuim = palavras.some((palavraAtual, i, palavra) => {
     
-    const pattern = new RegExp(`^(${palavraAtual}).+`)
+    const pattern = new RegExp(`^(${palavraAtual}).+`);
 
     for (const word of palavra) {
-      if (pattern.test(word)) return true
+      if (pattern.test(word)) return true;
     }
 
     const same = palavra.reduce((total, w) => {
