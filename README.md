@@ -38,7 +38,7 @@ Um conjunto é bom quando nenhuma palavra desse conjunto é um prefixo de outra 
 
 #### [Desafio 6](6-ProdutoeDivisao.js) Produto e Divisão
 
-Produto e Divisão
+Produto e Divisão de números
 
 #### [Desafio 7](7-BarraDeOuro.js) Grafos | Barra de Ouro
 
