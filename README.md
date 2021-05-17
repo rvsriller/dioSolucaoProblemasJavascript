@@ -43,3 +43,4 @@ Produto e Divisão
 #### [Desafio 7](7-BarraDeOuro.js) Grafos | Barra de Ouro
 
 Grafo das estradas do reino para coletar as barras de ouro
+A lista das estradas do reino, com os respectivos comprimentos (em km) e a capacidade de carga da carruagem real (kg)
