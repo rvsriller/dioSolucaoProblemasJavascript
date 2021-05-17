@@ -72,13 +72,13 @@
         if (visited[route.to]) continue;
   
         visited[v] = true;
-        previousRoutes[route.to] = v
+        previousRoutes[route.to] = v;
         stack = [...stack, route.to];
           
       }
   
       if (v !== 1) {
-        nodes = [...nodes, v]
+        nodes = [...nodes, v];
           
       }
         
