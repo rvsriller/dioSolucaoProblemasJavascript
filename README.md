@@ -34,6 +34,7 @@ Analisa uma palavra e a corrige removendo letras repetidas no final
 #### [Desafio 5](5-ConjuntoBomRuim.js) Conjunto bom ou ruim
 
 Conjunto Bom ou Ruim
+Um conjunto é bom quando nenhuma palavra desse conjunto é um prefixo de outra palavra.
 
 #### [Desafio 6](6-ProdutoeDivisao.js) Produto e Divisão
 
